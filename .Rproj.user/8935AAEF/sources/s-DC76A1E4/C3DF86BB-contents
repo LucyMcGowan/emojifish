@@ -1,0 +1,16 @@
+---
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+load("fisher_lst.Rda")
+```
+
+## Mapping of letters to emoji `r emo::ji("tada")` `r emo::ji("dancing_women")`
+
+```{r, echo = FALSE}
+emojis <- purrr::map_chr(fisher_lst, function(x) paste0(x, collapse = ""))
+cat(paste(names(emojis), ": ", emojis, collapse = "\n"))
+```
+
