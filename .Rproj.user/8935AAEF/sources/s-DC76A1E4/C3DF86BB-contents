@@ -15,3 +15,31 @@ cat(paste(names(emojis), ": ", emojis, collapse = "\n"))
 ```
 
 
+```{r, echo = FALSE}
+emoji_fisher <- function(x) {
+  x <- unlist(strsplit(x, ""))
+  x <- sapply(x, get_emoji)
+  cat(paste0(x, collapse = ""))
+}
+get_emoji <- function(x) {
+  emojis <- fisher_lst[[tolower(x)]]
+  if (length(emojis) == 0L) {
+    return(x)
+  }
+  sample(emojis, 1)
+}
+```
+
+```{r}
+emoji_fisher("oh how I love emojis!")
+```
+
+```{r}
+emoji_fisher("Thank you, Carrie")
+```
+
+```{r}
+emoji_fisher("WOOT WOOT!")
+```
+
+
