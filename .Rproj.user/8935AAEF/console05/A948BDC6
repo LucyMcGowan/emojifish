@@ -5,3 +5,48 @@ Initialized empty Git repository in /Users/lucymcgowan/Documents/wonderland/emo:
 ]0;~/Documents/wonderland/emo::ji_fisher
 [31;1m50% [36;1m2017-08-13 17:09:19 [0;33m [0;35mLeia🐓 [39m in [0;32m~/Documents/wonderland/emo::ji_fisher
 [36;1m±[0;32m [0;32m|master ?:6 [0;31m✗[0;32m| [0;32m→[39m git add .
+]0;~/Documents/wonderland/emo::ji_fisher
+[31;1m50% [36;1m2017-08-13 17:09:27 [0;33m [0;35mLeia🐓 [39m in [0;32m~/Documents/wonderland/emo::ji_fisher
+[36;1m±[0;32m [0;32m|master S:19 [0;31m✗[0;32m| [0;32m→[39m git commit -m ":tada::dancers: First commit"
+[master (root-commit) 86fc592] :tada::dancers: First commit
+ 19 files changed, 213 insertions(+)
+ create mode 100644 .Rproj.user/8935AAEF/console05/A948BDC6
+ create mode 100644 .Rproj.user/8935AAEF/console05/INDEX001
+ create mode 100644 .Rproj.user/8935AAEF/sources/prop/9A550F2C
+ create mode 100644 .Rproj.user/8935AAEF/sources/prop/B57FD72E
+ create mode 100644 .Rproj.user/8935AAEF/sources/prop/INDEX
+ create mode 100644 .Rproj.user/8935AAEF/sources/s-DC76A1E4/C3DF86BB
+ create mode 100644 .Rproj.user/8935AAEF/sources/s-DC76A1E4/C3DF86BB-contents
+ create mode 100644 .Rproj.user/8935AAEF/sources/s-DC76A1E4/D75613C6
+ create mode 100644 .Rproj.user/8935AAEF/sources/s-DC76A1E4/D75613C6-contents
+ create mode 100644 .Rproj.user/8935AAEF/sources/s-DC76A1E4/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/F55119F2-README/1/8935AAEFDC76A1E4/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/F55119F2-README/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 README.Rmd
+ create mode 100644 README.md
+ create mode 100644 data-raw.R
+ create mode 100644 emoji_fisher.Rproj
+ create mode 100644 fisher_lst.Rda
+]0;~/Documents/wonderland/emo::ji_fisher
+[31;1m50% [36;1m2017-08-13 17:09:36 [0;33m [0;35mLeia🐓 [39m in [0;32m~/Documents/wonderland/emo::ji_fisher
+[36;1m±[0;32m [0;32m|master U:1 [0;31m✗[0;32m| [0;32m→[39m git remote add origin https://github.com/LucyMcGowan/emoji_fisher.git
+]0;~/Documents/wonderland/emo::ji_fisher
+[31;1m49% [36;1m2017-08-13 17:09:47 [0;33m [0;35mLeia🐓 [39m in [0;32m~/Documents/wonderland/emo::ji_fisher
+[36;1m±[0;32m [0;32m|master U:1 [0;31m✗[0;32m| [0;32m→[39m git push
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': g lucymcgowan
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://lucymcgowan@github.com': 
+Counting objects: 28, done.
+Delta compression using up to 8 threads.
+Compressing objects:   4% (1/24)   Compressing objects:   8% (2/24)   Compressing objects:  12% (3/24)   Compressing objects:  16% (4/24)   Compressing objects:  20% (5/24)   Compressing objects:  25% (6/24)   Compressing objects:  29% (7/24)   Compressing objects:  33% (8/24)   Compressing objects:  37% (9/24)   Compressing objects:  41% (10/24)   Compressing objects:  45% (11/24)   Compressing objects:  50% (12/24)   Compressing objects:  54% (13/24)   Compressing objects:  58% (14/24)   Compressing objects:  62% (15/24)   Compressing objects:  66% (16/24)   Compressing objects:  70% (17/24)   Compressing objects:  75% (18/24)   Compressing objects:  79% (19/24)   Compressing objects:  83% (20/24)   Compressing objects:  87% (21/24)   Compressing objects:  91% (22/24)   Compressing objects:  95% (23/24)   Compressing objects: 100% (24/24)   Compressing objects: 100% (24/24), done.
+Writing objects:   3% (1/28)   Writing objects:   7% (2/28)   Writing objects:  10% (3/28)   Writing objects:  14% (4/28)   Writing objects:  17% (5/28)   Writing objects:  21% (6/28)   Writing objects:  25% (7/28)   Writing objects:  28% (8/28)   Writing objects:  32% (9/28)   Writing objects:  35% (10/28)   Writing objects:  42% (12/28)   Writing objects:  46% (13/28)   Writing objects:  50% (14/28)   Writing objects:  53% (15/28)   Writing objects:  57% (16/28)   Writing objects:  60% (17/28)   Writing objects:  64% (18/28)   Writing objects:  67% (19/28)   Writing objects:  71% (20/28)   Writing objects:  75% (21/28)   Writing objects:  78% (22/28)   Writing objects:  82% (23/28)   Writing objects:  85% (24/28)   Writing objects:  89% (25/28)   Writing objects:  92% (26/28)   Writing objects:  96% (27/28)   Writing objects: 100% (28/28)   Writing objects: 100% (28/28), 4.22 KiB | 0 bytes/s, done.
+Total 28 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), done.[K
+To https://github.com/LucyMcGowan/emoji_fisher.git
+ * [new branch]      master -> master
+]0;~/Documents/wonderland/emo::ji_fisher
+[31;1m49% [36;1m2017-08-13 17:09:55 [0;33m [0;35mLeia🐓 [39m in [0;32m~/Documents/wonderland/emo::ji_fisher
+[36;1m±[0;32m [0;32m|master U:1 [0;31m✗[0;32m| [0;32m→[39m c[Kgit add .
