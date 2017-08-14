@@ -166,3 +166,28 @@ To https://github.com/LucyMcGowan/emoji_fisher.git
 ]0;~/Documents/wonderland/emojifish
 [31;1m18% [36;1m2017-08-13 19:07:41 [0;33m [0;35mLeia🐓 [39m in [0;32m~/Documents/wonderland/emojifish
 [36;1m±[0;32m [0;32m|master U:1 [0;31m✗[0;32m| [0;32m→[39m gut add[K[K[K[K[K[Kit add .
+]0;~/Documents/wonderland/emojifish
+[31;1m20% [36;1m2017-08-13 19:09:46 [0;33m [0;35mLeia🐓 [39m in [0;32m~/Documents/wonderland/emojifish
+[36;1m±[0;32m [0;32m|master S:3 U:1 [0;31m✗[0;32m| [0;32m→[39m git commit -m ":speak_no_evil: Name disp[Kclaimer"
+[master e14f221] :speak_no_evil: Name disclaimer
+ 3 files changed, 54 insertions(+), 4 deletions(-)
+]0;~/Documents/wonderland/emojifish
+[31;1m20% [36;1m2017-08-13 19:09:55 [0;33m [0;35mLeia🐓 [39m in [0;32m~/Documents/wonderland/emojifish
+[36;1m±[0;32m [0;32m|master U:1 [0;31m✗[0;32m| [0;32m→[39m git push
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': lucymcgowan
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://lucymcgowan@github.com': 
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.98 KiB | 0 bytes/s, done.
+Total 8 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+remote: This repository moved. Please use the new location:[K
+remote:   https://github.com/LucyMcGowan/emojifish.git[K
+To https://github.com/LucyMcGowan/emoji_fisher.git
+   346f8b4..e14f221  master -> master
+]0;~/Documents/wonderland/emojifish
+[31;1m20% [36;1m2017-08-13 19:10:02 [0;33m [0;35mLeia🐓 [39m in [0;32m~/Documents/wonderland/emojifish
+[36;1m±[0;32m [0;32m|master U:1 [0;31m✗[0;32m| [0;32m→[39m gti[K[Kit add .
