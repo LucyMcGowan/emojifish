@@ -49,4 +49,4 @@ emoji_fisher("Thank you, Carrie")
 emoji_fisher("WOOT WOOT!")
 ```
 
-
+_The name seems super redundant, mostly because there is a possibility it will end up as `emo::ji_fisher()`, so I'm trying to keep it simple..._`r emo::ji("woman_shrugging")`

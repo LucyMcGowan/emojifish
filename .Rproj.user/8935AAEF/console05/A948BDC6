@@ -118,3 +118,51 @@ fatal: Not a git repository (or any of the parent directories): .git
 ]0;~/Documents/wonderland/emojifish
 [31;1m17% [36;1m2017-08-13 19:06:21 [0;33m [0;35mLeia🐓 [39m in [0;32m~/Documents/wonderland/emojifish
 [36;1m±[0;32m [0;32m|master U:22 ?:8 [0;31m✗[0;32m| [0;32m→[39m git add .
+]0;~/Documents/wonderland/emojifish
+[31;1m17% [36;1m2017-08-13 19:06:23 [0;33m [0;35mLeia🐓 [39m in [0;32m~/Documents/wonderland/emojifish
+[36;1m±[0;32m [0;32m|master S:28 [0;31m✗[0;32m| [0;32m→[39m git commit -m ":package: [K:w[Ksparkles: Make it a package"
+[master 346f8b4] :package::sparkles: Make it a package
+ 28 files changed, 197 insertions(+), 261 deletions(-)
+ create mode 100644 .Rbuildignore
+ rewrite .Rproj.user/8935AAEF/console05/INDEX001 (71%)
+ delete mode 100644 .Rproj.user/8935AAEF/sources/s-DC76A1E4/231BC12B-contents
+ delete mode 100644 .Rproj.user/8935AAEF/sources/s-DC76A1E4/C3DF86BB
+ delete mode 100644 .Rproj.user/8935AAEF/sources/s-DC76A1E4/C3DF86BB-contents
+ delete mode 100644 .Rproj.user/8935AAEF/sources/s-DC76A1E4/CD40D9E5
+ delete mode 100644 .Rproj.user/8935AAEF/sources/s-DC76A1E4/CD40D9E5-contents
+ delete mode 100644 .Rproj.user/8935AAEF/sources/s-DC76A1E4/D75613C6
+ delete mode 100644 .Rproj.user/8935AAEF/sources/s-DC76A1E4/D75613C6-contents
+ delete mode 100644 .Rproj.user/8935AAEF/sources/s-DC76A1E4/lock_file
+ delete mode 100644 .Rproj.user/shared/notebooks/F55119F2-README/1/8935AAEFDC76A1E4/chunks.json
+ delete mode 100644 .Rproj.user/shared/notebooks/F55119F2-README/1/s/c0z3cca5ryi2r/000004.csv
+ delete mode 100644 .Rproj.user/shared/notebooks/F55119F2-README/1/s/chunks.json
+ create mode 100644 .gitignore
+ create mode 100644 DESCRIPTION
+ create mode 100644 NAMESPACE
+ rename emoji_fisher.R => R/emoji_fisher.R (56%)
+ create mode 100644 R/sysdata.rda
+ rewrite README.md (80%)
+ rename data-raw.R => data-raw/data-raw.R (89%)
+ rename fisher_lst.Rda => data/fisher_lst.Rda (100%)
+ delete mode 100644 emoji_fisher.Rproj
+ create mode 100644 emojifish.Rproj
+]0;~/Documents/wonderland/emojifish
+[31;1m18% [36;1m2017-08-13 19:07:34 [0;33m [0;35mLeia🐓 [39m in [0;32m~/Documents/wonderland/emojifish
+[36;1m±[0;32m [0;32m|master U:1 [0;31m✗[0;32m| [0;32m→[39m git push
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': lucymcgowan
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://lucymcgowan@github.com': 
+Counting objects: 27, done.
+Delta compression using up to 8 threads.
+Compressing objects:   4% (1/22)   Compressing objects:   9% (2/22)   Compressing objects:  13% (3/22)   Compressing objects:  18% (4/22)   Compressing objects:  22% (5/22)   Compressing objects:  27% (6/22)   Compressing objects:  31% (7/22)   Compressing objects:  36% (8/22)   Compressing objects:  40% (9/22)   Compressing objects:  45% (10/22)   Compressing objects:  50% (11/22)   Compressing objects:  54% (12/22)   Compressing objects:  59% (13/22)   Compressing objects:  63% (14/22)   Compressing objects:  68% (15/22)   Compressing objects:  72% (16/22)   Compressing objects:  77% (17/22)   Compressing objects:  81% (18/22)   Compressing objects:  86% (19/22)   Compressing objects:  90% (20/22)   Compressing objects:  95% (21/22)   Compressing objects: 100% (22/22)   Compressing objects: 100% (22/22), done.
+Writing objects:   3% (1/27)   Writing objects:   7% (2/27)   Writing objects:  11% (3/27)   Writing objects:  14% (4/27)   Writing objects:  18% (5/27)   Writing objects:  22% (6/27)   Writing objects:  25% (7/27)   Writing objects:  29% (8/27)   Writing objects:  33% (9/27)   Writing objects:  37% (10/27)   Writing objects:  40% (11/27)   Writing objects:  44% (12/27)   Writing objects:  48% (13/27)   Writing objects:  51% (14/27)   Writing objects:  55% (15/27)   Writing objects:  59% (16/27)   Writing objects:  62% (17/27)   Writing objects:  66% (18/27)   Writing objects:  70% (19/27)   Writing objects:  74% (20/27)   Writing objects:  77% (21/27)   Writing objects:  81% (22/27)   Writing objects:  85% (23/27)   Writing objects:  88% (24/27)   Writing objects:  92% (25/27)   Writing objects:  96% (26/27)   Writing objects: 100% (27/27)   Writing objects: 100% (27/27), 5.78 KiB | 0 bytes/s, done.
+Total 27 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+remote: This repository moved. Please use the new location:[K
+remote:   https://github.com/LucyMcGowan/emojifish.git[K
+To https://github.com/LucyMcGowan/emoji_fisher.git
+   660e3ea..346f8b4  master -> master
+]0;~/Documents/wonderland/emojifish
+[31;1m18% [36;1m2017-08-13 19:07:41 [0;33m [0;35mLeia🐓 [39m in [0;32m~/Documents/wonderland/emojifish
+[36;1m±[0;32m [0;32m|master U:1 [0;31m✗[0;32m| [0;32m→[39m gut add[K[K[K[K[K[Kit add .

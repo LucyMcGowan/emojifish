@@ -53,15 +53,17 @@ Examples
 ``` r
 library("emojifish")
 emoji_fisher("oh how I love emojis!")
-#> 🅾️♓️ ♓️😋👐 🕯 👍🔴✌️📧 3️⃣〽️❤️🌶🕯⚡️❗️
+#> ⚪🙌 🙌🔵👐 ℹ️ 👍⚫✌️📧 📧〽️🌀🌶ℹ️💲❕
 ```
 
 ``` r
 emoji_fisher("Thank you, Carrie")
-#> ✝️♓️🅰️♑️🎋 🤸⭕⛎, 📞🅰️🌱🌱ℹ️📧
+#> ➕🙌⛺♑️🎋 🤸🙆👅, 🥐⛺®🌱🕯3️⃣
 ```
 
 ``` r
 emoji_fisher("WOOT WOOT!")
-#> 🌵⚪❄️➕ 👐❄️🙆🌴❗️
+#> 👐🅾️🤡➕ 🌵🔘⚫🌴❕
 ```
+
+*The name seems super redundant, mostly because there is a possibility it will end up as `emo::ji_fisher()`, so I'm trying to keep it simple...*🤷
