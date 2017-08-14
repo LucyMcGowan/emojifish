@@ -2,35 +2,42 @@
 output: github_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-load("fisher_lst.Rda")
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
 ```
+
+# emojifish
+
+Inspired by Carrie Fisher, this allows you to map letters to emoji.
+
+## Installation
+
+You can install emojifish from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("LucyMcGowan/emojifish")
+```
+
 
 ## Mapping of letters to emoji `r emo::ji("tada")` `r emo::ji("dancing_women")`
 
 ```{r, echo = FALSE}
+fisher_lst <- emojifish:::fisher_lst
 emojis <- purrr::map_chr(fisher_lst, function(x) paste0(x, collapse = ""))
 cat(paste(names(emojis), ": ", emojis, collapse = "\n"))
 ```
 
-
-```{r, echo = FALSE}
-emoji_fisher <- function(x) {
-  x <- unlist(strsplit(x, ""))
-  x <- sapply(x, get_emoji)
-  cat(paste0(x, collapse = ""))
-}
-get_emoji <- function(x) {
-  emojis <- fisher_lst[[tolower(x)]]
-  if (length(emojis) == 0L) {
-    return(x)
-  }
-  sample(emojis, 1)
-}
-```
+## Examples 
 
 ```{r}
+library("emojifish")
 emoji_fisher("oh how I love emojis!")
 ```
 

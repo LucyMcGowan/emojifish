@@ -1,8 +1,0 @@
-"0","  x <- unlist(strsplit(x, """"))
-  x <- sapply(x, function(x) sample(fisher_lst[[x]], 1))
-  paste0(x, collapse = """")
-"
-"1","[1]"
-"1"," ""\U0001f6e0\U0001f938\U0001f4a4"""
-"1","
-"

@@ -32,4 +32,10 @@ fisher_tbl <- tibble::tribble(
 
 fisher_lst <- tibble::deframe(fisher_tbl)
 
-save(fisher_lst, file = "fisher_lst.Rda")
+save(fisher_lst, file = "../data/fisher_lst.Rda")
+
+devtools::use_data(
+  fisher_lst,
+  internal = TRUE,
+  overwrite = TRUE
+)

@@ -1,3 +1,12 @@
+#' Text to Emoji
+#'
+#' @param x Character string. Text you'd like to be emojified.
+#'
+#' @return Character string of emoji.
+#' @export
+#'
+#' @examples
+#' emoji_fisher("Carrie Fisher is a delight")
 emoji_fisher <- function(x) {
   x <- unlist(strsplit(x, ""))
   x <- sapply(x, get_emoji)
